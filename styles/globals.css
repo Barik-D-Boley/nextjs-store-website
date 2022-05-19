@@ -1,3 +1,11 @@
+:root {
+    --clr-white: #fafafa;
+    --clr-black: #222222;
+
+    --submit-btn: #006dfe;
+
+}
+
 html,
 body {
   padding: 0;

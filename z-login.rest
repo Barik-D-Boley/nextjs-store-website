@@ -1,0 +1,36 @@
+GET http://localhost:3000/api/user HTTP/1.1
+Content-Type: application/json
+###
+POST http://localhost:3000/api/user HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "user@gmail.com",
+    "name": "Barik",
+    "password": "pass"
+}
+###
+POST http://localhost:3000/api/user/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "user@gmail.com",
+    "password": "pass"
+}
+###
+DELETE http://localhost:3000/api/user HTTP/1.1
+Content-Type: application/json
+###
+GET http://localhost:3000/api/user/628491af07948fb7fa0e3bf1 HTTP/1.1
+Content-Type: application/json
+###
+PATCH http://localhost:3000/api/user/6284926f07948fb7fa0e3bf5 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Barik Boley"
+}
+###
+DELETE http://localhost:3000/api/user/6284926f07948fb7fa0e3bf5 HTTP/1.1
+Content-Type: application/json
+###
