@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from './Store.module.css';
+import Image from 'next/image';
 
 export default function Store() {
     return (
@@ -13,7 +14,13 @@ export default function Store() {
             <div className={styles.productContainers}>
                 <div className={styles.productContainer}>
                     <div className={styles.imgContainer}>
-                        <img className={styles.productImage} src="https://m.media-amazon.com/images/I/71TPda7cwUL._AC_UY327_FMwebp_QL65_.jpg"/>
+                        <Image
+                            className={styles.productImage}
+                            src="https://m.media-amazon.com/images/I/71TPda7cwUL._AC_UY327_FMwebp_QL65_.jpg"
+                            alt="Macbook"
+                            width={500}
+                            height={500}
+                        />
                     </div>
                     <div className={styles.productInfo}>
                         <h1 className={styles.productTitle}>2020 Apple MacBook Air</h1>
@@ -25,8 +32,14 @@ export default function Store() {
                 </div>
 
                 <div className={styles.productContainer}>
-                    <div className={styles.imgContainer}>  
-                        <img className={styles.productImage} src="https://m.media-amazon.com/images/I/71wD+cPkxlL._AC_UL480_FMwebp_QL65_.jpg"/>
+                    <div className={styles.imgContainer}>
+                        <Image
+                            className={styles.productImage}
+                            src="https://m.media-amazon.com/images/I/71wD+cPkxlL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="Macbook"
+                            width={500}
+                            height={500}
+                        />
                     </div>
                     <div className={styles.productInfo}>
                         <h1 className={styles.productTitle}>CUK Mantis Gamer PC</h1>
@@ -38,8 +51,14 @@ export default function Store() {
                 </div>
 
                 <div className={styles.productContainer}>
-                    <div className={styles.imgContainer}>  
-                        <img className={styles.productImage} src="https://m.media-amazon.com/images/I/81RoSdmbhlL._AC_UL480_FMwebp_QL65_.jpg"/>
+                    <div className={styles.imgContainer}>
+                        <Image
+                            className={styles.productImage}
+                            src="https://m.media-amazon.com/images/I/81RoSdmbhlL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="Macbook"
+                            width={500}
+                            height={500}
+                        />
                     </div>
                     <div className={styles.productInfo}>
                         <h1 className={styles.productTitle}>All Purpose Flour</h1>
@@ -52,7 +71,14 @@ export default function Store() {
 
                 <div className={styles.productContainer}>
                     <div className={styles.imgContainer}>  
-                        <img className={styles.productImage} src="https://images-na.ssl-images-amazon.com/images/I/515k7GcxxvL._SX258_BO1,204,203,200_.jpg"/>
+                        {/* <img className={styles.productImage} src="https://images-na.ssl-images-amazon.com/images/I/515k7GcxxvL._SX258_BO1,204,203,200_.jpg"/> */}
+                        <Image
+                            className={styles.productImage}
+                            src="https://images-na.ssl-images-amazon.com/images/I/515k7GcxxvL._SX258_BO1,204,203,200_.jpg"
+                            alt="Macbook"
+                            width={500}
+                            height={500}
+                        />
                     </div>
                     <div className={styles.productInfo}>
                         <h1 className={styles.productTitle}>Web Coding & Development For Dummies</h1>
