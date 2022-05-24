@@ -84,7 +84,7 @@ export default function Store() {
                         <h1 className={styles.productTitle}>Web Coding & Development For Dummies</h1>
                         <h2 className={styles.productPrice}>$27<sup className={styles.sup}>64</sup></h2>
                         <h3 className={styles.productCategory}>Book</h3>
-                        <p className={styles.productDesc}>With more high-paying web development jobs opening every day, people with coding and web/app building skills are having no problems finding employment. If you're a would-be developer looking to gain the know-how to build the interfaces, databases, and other features that run modern websites, web apps, and mobile apps, look no further. Web Coding & Development All-in-One For Dummies is your go-to interpreter for speaking the languages that handle those tasks.</p>
+                        <p className={styles.productDesc}>With more high-paying web development jobs opening every day, people with coding and web/app building skills are having no problems finding employment. If you&apos;re a would-be developer looking to gain the know-how to build the interfaces, databases, and other features that run modern websites, web apps, and mobile apps, look no further. Web Coding & Development All-in-One For Dummies is your go-to interpreter for speaking the languages that handle those tasks.</p>
                         <button className={styles.purchaseBtn}>Purchase</button>
                     </div>
                 </div>
