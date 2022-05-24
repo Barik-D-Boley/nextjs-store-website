@@ -16,6 +16,8 @@
     flex-direction: column;
     border: 1px solid black;
     align-items: center;
+    margin-top: 17.5rem;
+    background-color: gray;
 }
 
 .loginForm {
@@ -30,7 +32,7 @@
     flex-direction: column;
     border: 1px solid black;
     border-radius: .25rem;
-    overflow: none;
+    overflow: hidden;
 }
 
 .formInput {
@@ -45,6 +47,10 @@
     border: none;
     background-color: blue;
     color: var(--clr-white);
+    border-radius: .5rem;
+}
+#submitBtn:hover {
+    cursor: pointer;
 }
 
 .loginLinks {

@@ -3,6 +3,8 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
+
+
     return (
         <div className={styles.container}>
             <Head>
@@ -23,7 +25,9 @@ export default function Home() {
                         <input className={styles.formInput} type="text" name="email-input" id="email-input" placeholder="Email" />
                         <input className={styles.formInput} type="password" name="password-input" id="password-input" placeholder="Password" />
                     </div>
-                    <input className={styles.formInput} type="submit" value="Submit" id={styles.submitBtn} />
+                    <Link href="/store">
+                        <input className={styles.formInput} type="submit" value="Submit" id={styles.submitBtn} />
+                    </Link>
                 </form>
 
                 <div className={styles.loginLinks}>

@@ -58,7 +58,9 @@ export default function Register() {
                         <input className={styles.formInput} type="text" name="email" id="email" placeholder="Email" required />
                         <input className={styles.formInput} type="password" name="password" id="password" placeholder="Password" required />
                     </div>
-                    <input className={styles.formInput} type="submit" value="Submit" id={styles.submitBtn} />
+                    <Link href="/">
+                        <input className={styles.formInput} type="submit" value="Submit" id={styles.submitBtn} />
+                    </Link>
                 </form>
 
                 <div className={styles.loginLinks}>
